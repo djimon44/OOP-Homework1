@@ -70,15 +70,5 @@ public class ScooterRentalTester {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        System.out.println("Renting scooter again...");
-        rentalCompany.rentScooter(scooterId);
-        System.out.println("Travelling to new destination...");
-        // Simulating travel time
-        try {
-            TimeUnit.SECONDS.sleep(5); // Simulating travel time of 5 seconds
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-        System.out.println("Arrived at new destination: (" + destinationX + ", " + destinationY + ")");
     }
 }
